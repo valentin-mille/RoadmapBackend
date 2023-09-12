@@ -10,14 +10,8 @@ import Fluent
 
 struct FeatureVoterController: RouteCollection {
     func boot(routes: RoutesBuilder) throws {
-        let roadmaps = routes.grouped("roadmaps")
-
-        roadmaps.group("get", ":namespace", ":featureId") { roadmap in
-            roadmap.get(use: getFeatureCount)
-        }
-        roadmaps.group("add", ":namespace", ":featureId", ":amount") { roadmap in
-            roadmap.get(use: voteFeature)
-        }
+        routes.get("get", ":namespace", ":featureId", use: getFeatureCount)
+        routes.get("add", ":namespace", ":featureId", ":amount", use: voteFeature)
     }
 
     func voteFeature(req: Request) async throws -> [String: Int] {
