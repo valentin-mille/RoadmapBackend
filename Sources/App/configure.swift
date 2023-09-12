@@ -6,10 +6,10 @@ import Fluent
 public func configure(_ app: Application) async throws {
     guard let host = Environment.get("DATABASE_HOST"),
           let username = Environment.get("DATABASE_USERNAME"),
-          let password = Environment.get("DATABASE_PASSWORD"),
-          let name = Environment.get("DATABASE_NAME")
+          let password = Environment.get("DATABASE_PASSWORD")
     else {
         app.shutdown()
+        print("Could not load variable environment. Shutting down the app.")
         return
     }
 
@@ -17,7 +17,6 @@ public func configure(_ app: Application) async throws {
         hostname: host,
         username: username,
         password: password,
-        database: name,
         tls: .disable
     )
     app.databases.use(.postgres(configuration: configuration, decodingContext: .default), as: .psql)
