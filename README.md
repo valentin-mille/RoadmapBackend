@@ -50,7 +50,7 @@ Koyeb offers the possibility to deploy an API easily. Once you have your account
 <details>
 <summary>Step 1 to 6 in image</summary>
   
-![CleanShot 2023-09-13 at 11 07 46@2x](https://github.com/valentin-mille/RoadmapBackend/assets/40181807/8d5ee0d9-76ae-47d0-88f5-066f66e72698)
+![CleanShot 2023-09-13 at 21 52 22](https://github.com/valentin-mille/RoadmapBackend/assets/40181807/2a130582-54b0-4072-aa93-6c24215b5862)
 </details>
 
 <details>
