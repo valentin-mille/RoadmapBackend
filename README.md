@@ -24,8 +24,8 @@ It is pretty straightforward. Create your account with a `Tiny Turtle` plan, and
 Koyeb offers the possibility to deploy an API easily. Once you have your account and started to create your instance, this is the configuration you could use to run a healthy service:
 
 1. Choose deployment using a Github repository.
-2. Add this link: https://github.com/valentin-mille/RoadmapBackend
-3. Choose the Dockerfile builder
+2. Add the github project link (I recommend you to fork the repository as koyeb will deploy each time there is a commit).
+3. Choose the Dockerfile builder.
 4. Override the entrypoint : `["./App"]`
 5. Override the command: `serve`
 6. Override the arguments `["--env","production","--hostname","0.0.0.0","--port","8080"]`
