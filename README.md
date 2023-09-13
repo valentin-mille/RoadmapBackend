@@ -107,8 +107,8 @@ You can take inspiration from the [gist](https://gist.github.com/tylerstillwater
 
 # Acknowledgement 🙏
 
-Thanks for [Antoine](https://twitter.com/twannl), [Jordi](https://twitter.com/jordibruin) and [Hidde van der Ploeg](https://twitter.com/hiddevdploeg) a valuable Swift Package like [Roadmap](https://github.com/AvdLee/Roadmap).
+Thanks for [Antoine](https://twitter.com/twannl), [Jordi](https://twitter.com/jordibruin) and [Hidde van der Ploeg](https://twitter.com/hiddevdploeg) to have developed a valuable Swift Package like [Roadmap](https://github.com/AvdLee/Roadmap).
 
-Also thanks for [Tyler Stillwater](https://github.com/tylerstillwater) that inspire me to develop this project. 
+Also thanks for [Tyler Stillwater](https://github.com/tylerstillwater) for integrating the possibility to use a custom API and inspire me to develop this project.
 
 
