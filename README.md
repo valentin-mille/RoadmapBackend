@@ -95,7 +95,20 @@ docker-compose up --build
 
 Next you should expose the API port and you are ready.
 
+# How to call your in server in your iOS app?
 
+You can take inspiration from the [gist](https://gist.github.com/tylerstillwater/b129d1f3fe6efc87c08db6085053613f) from [Tyler Stillwater](https://github.com/tylerstillwater) that already shows how to use a custom API.
 
+⚠️ You must change the URL endpoint call to be:
+
+`https://[YOUR_APP].koyeb.app/get/{namespace}/{featureId}` to get the feature count.
+
+`https://[YOUR_APP].koyeb.app/add/{namespace}/{featureId}/{delta}` to increment or decrement the feature count.
+
+# Acknowledgement 🙏
+
+Thanks for [Antoine](https://twitter.com/twannl), [Jordi](https://twitter.com/jordibruin) and [Hidde van der Ploeg](https://twitter.com/hiddevdploeg) a valuable Swift Package like [Roadmap](https://github.com/AvdLee/Roadmap).
+
+Also thanks for [Tyler Stillwater](https://github.com/tylerstillwater) that inspire me to develop this project. 
 
 
